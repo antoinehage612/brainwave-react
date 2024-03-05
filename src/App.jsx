@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Collaboration from "./components/Collaboration";
 import ButtonGradient from "./assets/svg/ButtonGradient";
 import Services from "./components/Services";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
       </div>
       <ButtonGradient />
     </>
